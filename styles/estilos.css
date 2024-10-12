@@ -1,0 +1,137 @@
+body{
+
+          margin: 0;
+        padding: 0;
+        background: url(tas.PNG);
+        background position: center ;
+        font-family: sans-serif;
+       background-attachment: fixed;
+       background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+
+}
+
+.nube1{
+    width: 140px;
+    height: 75px;
+    background-image: url(nube.png);
+    background-size: 100% 100%;
+    position: absolute;
+    margin-top: 55px;
+    animation: movimiento2 40s infinite;
+
+}
+
+.nube3{
+    width: 105px;
+    height: 75px;
+    background-image: url(nube.png);
+    background-size: 100% 100%;
+    position: absolute;
+    animation: movimiento3 35s infinite;
+
+}
+.nube4{
+    width: 210px;
+    height: 75px;
+    background-image: url(nube.png);
+    background-size: 100% 100%;
+    position: absolute;
+    animation: movimiento4 50s infinite;
+
+}
+.nube{
+  width: 210px;
+    height: 150px;
+    background-image: url(nube.png);
+    background-size: 100% 100%;
+    position: absolute;
+    animation: movimiento1 60s infinite;
+
+}
+
+@keyframes movimiento3{
+  from {
+    margin-left: -10%;
+  }
+
+  to {
+    margin-left: 82%;
+    
+
+  }
+}
+
+@keyframes movimiento1{
+  from {
+    margin-left: 82%;
+  }
+
+  to {
+    margin-left: -10%;
+    
+
+  }
+}
+*{  
+    margin: 0;
+}
+
+@keyframes movimiento2{
+  from {
+    margin-left: 82%;
+  }
+
+  to {
+    margin-left: -10%;
+    
+
+  }
+}
+
+@keyframes movimiento4{
+  from {
+    margin-left: -5%;
+  }
+
+  to {
+    margin-left: 82%;
+    
+
+  }
+}
+*{  
+    margin: 0;
+}
+                .contenedor{
+                    background: url(jelou.jpg);
+                    background-size: cover;
+                    background position: center ;
+                    text-align: center;
+}
+
+    p{
+        font-family: cursive;
+        font-size: xx-large;
+        padding: 15%;
+}
+
+            button{
+                font-family: cursive;
+                font-size: xx-large;
+                padding: 0.75em;
+                color: lightyellow;
+                background: hotpink;
+                border-bottom: none;
+                border-radius: 150px;
+            }
+
+                                        #yesBtn{
+                                            transform: translate(-100%,0);
+                                        }
+
+                                        #noBtn{
+                                            position: absolute;
+                                        }
+
